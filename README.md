@@ -105,17 +105,96 @@
 ### 03 絶対パスと相対パス
 ### 04 ディレクトリの移動
 ### 05 lsコマンド
+
+```bash
+ls
+ls -a
+ls -l
+ls -F
+ls -aF
+ls -al
+ll
+```
+
+| 種類 | 記号 |
+| ---- | ---- |
+| 通常ファイル | なし |
+| ディレクトリ | / |
+| 実行可能ファイル | * |
+| シンボリックリンク | @ |
+|  |  |
+
 ### 06 コマンドのオプションについて
+
+```bash
+ls --quote-name
+```
 
 ## Chapter05 : ファイル操作の基本
 
 ### 01 mkdirコマンド
+
+```bash
+mkdir dir1
+mkdir -p dir1/dir2/dir3
+```
+
 ### 02 touchコマンド
+
+```bash
+touch filename1
+touch filename2 filename3
+```
+
 ### 03 rmとrmdirコマンド
+
+```bash
+rm filename
+rmdir dir
+```
+
 ### 04 catコマンド
+
+```bash
+cat /etc/bashrc
+cat -n /etc/bashrc
+cat /etc/bashrc ~/.bashrc
+```
+
 ### 05 lessコマンド
+
+```bash
+less /etc/bashrc
+```
+
+| 内容 | コマンド |
+| ---- | ---- |
+| 1画面下にスクロールする | スペースキー、f、Ctrl + v |
+| 1画面上にスクロールする | b、Meta + v |
+| 1行下にスクロールする | j、Ctrl + n、Enterキー |
+| 1行上にスクロールする | k、Ctrl + p |
+| lessコマンドを終了する | q |
+| 下方向に向かって内検索 | /キーワード |
+| 上方向に向かって内検索 | ?キーワード |
+| 次の検索結果に移動する | n |
+| 前の検索結果に移動する | Shift + n |
+| ヘルプ画面の表示 | h |
+| ヘルプ画面を閉じる | q |
+
 ### 06 cpコマンド
+
+```bash
+
+```
+
 ### 07 mvコマンド
+
+```bash
+
+```
+
 ### 08 lnコマンド
 
+```bash
 
+```
