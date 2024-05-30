@@ -150,7 +150,8 @@ touch filename2 filename3
 
 ```bash
 rm filename
-rmdir dir
+rm -r dir1
+rmdir dir1
 ```
 
 ### 04 catコマンド
